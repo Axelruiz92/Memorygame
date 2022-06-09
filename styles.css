@@ -1,10 +1,25 @@
 body {
-
+    position: relative;
     background-color: #8EC5FC;
-    background-image: url('imagenes/main.gif');
-    background-size: cover;
+    margin: 0;
     font-family: 'Josefin Sans', sans-serif;
+    
 }
+
+/*video*/
+
+video {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 100vw;
+        height: 636.5px;
+        transform: translateX(calc((100% - 100vw) / 2));
+        z-index: -2;
+    
+    
+}
+
 
 main {
     width: 580px;
