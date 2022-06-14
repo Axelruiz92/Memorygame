@@ -90,9 +90,9 @@ function destapar (id) {
 
         if (aciertos == 8) {
             clearInterval(tiempoRegresivoId);
-            mostrarAciertos.innerHTML = `Aciertos: ${aciertos} 🧐`;
-            mostrarTiempo.innerHTML = `Que crack, solo te demoraste ${timerInicial - timer} segundos!`
-            mostrarMovimientos.innerHTML = `Movimientos: ${movimientos}🏃`;
+            mostrarAciertos.innerHTML = `Aciertos: ${aciertos} 🧐`; //mensaje que dira la cantidad de aciertos
+            mostrarTiempo.innerHTML = `Que crack, solo te demoraste ${timerInicial - timer} segundos!` //mostrara la cantidad de tiempo que tardo el jugador en resolver el juego
+            mostrarMovimientos.innerHTML = `Movimientos: ${movimientos}🏃`; //mensaje que dira la cantidad de movimientos del jugador
         }
 
     } else {
