@@ -91,6 +91,9 @@ a {
     body {
         height: 100vh;
     }
+    
+    h1 {
+        margin:0;
 
     button {
         width: 18vw;
