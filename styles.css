@@ -140,3 +140,9 @@ a {
         height: 8vh;
     }
 }
+
+@media (max-width: 340px) {
+    button {
+        height: 9.5vh;
+    }
+}
