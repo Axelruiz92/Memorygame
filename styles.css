@@ -1,9 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     position: relative;
     background-color: #8EC5FC;
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
-        background-image: url('imagenes/main.gif');
+    background-image: url('imagenes/main.gif');
+    background-size:cover;
 }
 
 /*video*/
